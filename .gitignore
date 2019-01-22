@@ -1,0 +1,10 @@
+.rpt2_cache/
+
+.idea/
+node_modules/
+tensortest/.git/
+tensortest/.idea/
+tensortest/.yalc/
+tensortest/node_modules/
+tensortest/dist/
+tensortest/src/assets
