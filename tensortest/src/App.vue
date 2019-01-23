@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <HelloWorld />
+    <MultipleModel />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SingleModel from './components/SingleModel.vue'
+import MultipleModel from './components/MultipleModel.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    SingleModel,
+    MultipleModel
   }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img id="picture" src="../assets/000161.jpg" style="display: none;" />
+    <img id="picture" src="../assets/000013middle.jpg" style="display: none;" />
     <canvas id="canvas"></canvas>
   </div>
 </template>
@@ -8,7 +8,7 @@
 <script>
   import * as posenet from '@tensorflow-models/posenet';
   export default {
-    name: 'HelloWorld',
+    name: 'SingleModel',
     data() {
       return {
         pointList: []
